@@ -10,6 +10,10 @@ class App extends React.Component{
     console.log('component did mount')
   }
 
+  fetchAdvice = () => {
+    axios.get();
+  }
+
   render() {
     return(
       <h1>APP</h1>
